@@ -1,10 +1,6 @@
 *{
     background-color: black;
     margin: 80;
-    
-}
-p{/*
-    color: white;*/
 }
 #main_header{
    top:30px;
@@ -23,6 +19,35 @@ p{/*
     overflow: hidden;
 }
 
+#beach_img{
+    width:350px;
+    float: left;
+    overflow:hidden;
+    position: relative;
+}
+#beach_img2{
+    width:350px;
+    float: left;
+    overflow:hidden;
+    position: static;
+}
+
+#main_footer{
+    color: white;
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 10%;
+    
+}
+
+.txt{
+    width:600px;
+    float: right;
+    overflow: hidden;
+}
+
 h1{
     color: rgb(225, 237, 255);
     font-family: 'Black Han Sans', sans-serif;
@@ -30,6 +55,10 @@ h1{
 p{
     color: white;
     font-family: 'Hi Melody', cursive;
+}
+
+h4{
+    color: white;
 }
 
 input:nth-of-type(1){display: none;}
